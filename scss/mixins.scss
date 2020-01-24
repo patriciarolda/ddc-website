@@ -1,0 +1,14 @@
+@mixin styleButton($color1, $color2) {
+    border: 1px solid white;
+    background: $color2;
+    padding: 10px;
+    margin-top: 20px;
+    color: $color1;
+}
+
+    &:hover {
+        border: 1px solid $color2;
+        background: $color1;
+        color: $color2;
+    }
+}
