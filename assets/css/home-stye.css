@@ -9884,6 +9884,7 @@ a.navbar-brand, a.nav-link {
 }
 a.navbar-brand:hover, a.nav-link:hover {
   color: #B43022;
+  transform: scale(1.1);
 }
 
 .navbar {
@@ -9903,6 +9904,10 @@ footer > .about-dev {
   background-color: #717b84;
 }
 
+.pattyro {
+  font-family: "Parisienne", cursive;
+}
+
 .carousel-photo {
   height: 500px;
   object-fit: cover;
@@ -9917,8 +9922,8 @@ a.carousel-button {
   color: white;
 }
 
-.card-img-top {
-  border-radius: 50%;
+.card {
+  min-height: 250px;
 }
 
 .title {
@@ -9947,10 +9952,35 @@ a.carousel-button {
   border-radius: 50%;
 }
 
-.artist-profile {
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
+#artist-description {
+  width: 15em;
+  height: 15em;
+}
+#artist-description:hover {
+  color: white;
+  transform: scale(1.1);
+  color: black;
+  box-shadow: 0 0 5px black;
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 15px black;
+}
+
+.title-artist-description {
+  font-size: 2rem;
+}
+
+#daloy-gallery {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+#daloy-gallery:hover {
+  color: white;
+  transform: scale(1.1);
+  color: black;
+  box-shadow: 0 0 5px black;
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 15px black;
 }
 
 .googlemap {

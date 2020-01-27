@@ -9,26 +9,27 @@
     <meta name="keywords" content="Daloy Dance Company, theater, dance-theater, artist, patricia rolda web design, ea torrado">
     <meta name="author" content="Daloy Dance Company. Artistic Director Ea Torrado. Web Designer Patricia Rolda">
     <script src="https://kit.fontawesome.com/f04ea524df.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Parisienne|Questrial&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/js/home-js.js">
-    <link rel="stylesheet"  href="./assets/css/home-style.css">
+    <link rel="stylesheet"  href="./assets/css/home-stye.css">
 
     <title>Daloy Dance Company</title>
 </head>
 
 <body>
-    <header>   <!-- NAVIGATION -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="./home.html">Daloy Dance Company</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- NAVIGATION -->
+    <header>   
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html"> <img src="./assets/images/daloy-logo/logo-only-daloy.png" alt="Loading" style="height: 90px; width: 90px;">  Daloy Dance Company.</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
-   
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
                         <a class="nav-link" href="./home.html">HOME<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
@@ -36,11 +37,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="./artist.html">ARTIST</a>
+                            <a class="nav-link" href="./artist.html">THE COMPANY</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="./performances.html">PERFORMANCCES</a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./performances.html">PERFORMANCES</a>
                         </li>
 
                         <li class="nav-item">
@@ -48,53 +49,211 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
 
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-    Launch demo modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-    <section class="video">
-        <div class="container">
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/RFJAh6sm33c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="intro-video">
+        <div class="video">
+            <iframe width="100%" height="550" src="https://www.youtube.com/embed/RFJAh6sm33c?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
-    <section class="shows">
+    <section class="gallery">
         <div class="container">
+            <div class="title-artist-description text-center font-weight-bolder mt-4">GALLERY</div>
             <div class="row">
-                <div class="col">
-                    <img src="./assets/images/performances/moonlight/cover.jpg" alt="">
+                
+                <!-- BROWN MADONNA -->
+                <div class="col mb-5">
+                    <img src="./assets/images/performances/brown-madonna/1.jpg"  alt="Brown Madonna"   data-toggle="modal" data-target="#bm" id="daloy-gallery">
+
+                
+                    <div class="modal fade" id="bm" tabindex="-1" role="dialog" aria-labelledby="artist-title" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="artist-title">BROWN MADONNA</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+    
+                                    <div class="modal-header">
+                                    </div>
+                                    
+                                    <p class="modal-body">
+                                        <p class="px-4 text-justify">Brown Madonna is a devised dance theatre piece that investigates the complexity and elusiveness of identity as it interweaves personal and cultural narratives. Set in a music concert, contemporary dance artist Ea Torrado attempts to make sense of her personal experiences and history through the songs of famous pop icon, Madonna. Building the performance up from the artist’s diaries, associated research and interviews, Brown Madonna explores creating an existential panorama on a personhood complicated by beauty standards, religion, ambition and growing up in a culture that equates a woman’s worthiness with being a wife and mother. </p>
+
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Direction and choreography:</span> Ea Torrado</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Performance:</span> Daloy Dance Company and Ea Torrado</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Concept, Direction and Performance:</span> Ea Torrado </p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold"> Choreography: </span>Daloy Dance Company </p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Video Design:</span> Russ Ligtas </p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Costumes:</span> Jodinand Aguillon Production </p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Team:</span> Daloy Dance Company </p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Music:</span> Madonna Music </p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Editing:</span> Buboy Raquitico</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Photographer:</span>Patricia Rolda</p>
+
+
+                                        <img src="./assets/images/performances/brown-madonna/1.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/2.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/3.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/4.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/5.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/6.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/7.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/8.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/9.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/10.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/11.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/12.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/13.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/14.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/15.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/brown-madonna/16.jpg" class="img-fluid" alt="Brown Madonna"> 
+                                     
+
+    
+                                    <div class="modal-footer">
+                                        <img src="./assets/images/daloy-logo/DDC.jpg" class="img-fluid" alt="Daloy Dance Company">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PIECES OF ME -->
+                <div class="col mb-5">
+                    <img src="./assets/images/performances//pieces-of-me/1.jpg"  alt="Pieces of Me"   data-toggle="modal" data-target="#pom" id="daloy-gallery">
+
+                
+                    <div class="modal fade" id="pom" tabindex="-1" role="dialog" aria-labelledby="artist-title" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="artist-title">PIECES OF ME</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+    
+                                    <div class="modal-header">
+                                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/rT6nShwxSpg?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    
+                                    <p class="modal-body">
+                                        <p class="px-4 text-justify">Pieces of me delves into the universal struggle of personal relationships. A re-imagining of past works, this 1 hour long devised piece melds together the strongest pas de deuxs of choreographer and artistic director, Ea Torrado. The ensemble amalgamates the piece using structured improvisation. The work is tailor made for an in-the-round, personal experience. A timeline of moments of love, hurt, happiness, and self-discovery made to be shared – this work is incredibly approachable in its contemporary, human and gestural movement language.
+                                        </p>
+                                        <p class="px-4 text-justify">This video is an excerpt from Daloy's show Mga Sayaw ng Paghilom at PETA Theatre Center November 2015.</p>
+                                        
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold"> Lights:</span> Katsch Catoy</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Live Music Improvisation: </span>Dale Adeva</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Dancers:</span> Daloy Dance Company</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Director and Choreographer: </span>Ea Torrado</p>
+                                        <p class="pb-0 px-4 mb-3"><span class="font-weight-bold">Photography: </span>Patricia Rolda</p>
+
+                                       
+
+
+                                        <img src="./assets/images/performances/pieces-of-me/1.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/2.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/3.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/4.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/5.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/6.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/7.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/8.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/9.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/10.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/11.jpg" class="img-fluid" alt="Brown Madonna">
+                                        <img src="./assets/images/performances/pieces-of-me/12.jpg" class="img-fluid" alt="Brown Madonna">
+                           
+
+                                        
+
+    
+                                    <div class="modal-footer">
+                                        <img src="./assets/images/daloy-logo/DDC.jpg" class="img-fluid" alt="Daloy Dance Company">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UNEARTHING -->
+                <div class="col mb-5">
+                    <img src="./assets/images/performances/unearthing/1.jpg"  alt="Unearthing"   data-toggle="modal" data-target="#une" id="daloy-gallery">
+
+                
+                    <div class="modal fade" id="une" tabindex="-1" role="dialog" aria-labelledby="artist-title" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="artist-title">UNEARTHING</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+
+                                    <div class="modal-header">
+                                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/ESMaw7jXM2Q?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    
+                                    <p class="modal-body">
+                                        <p class="px-4 text-justify">Unearthing by Ea Torrado and Daloy Dance Company explores the profound entanglements of the carnal and the spiritual. An experiment in transcendence from the physical to more vulnerable states of inner being (loób), the three-person piece uses movement as a form of attunement to a deeper inward contact. </p>
+                                        <p class="px-4 text-justify">Inspired by Somatics, trance improvisation, and contemporary practices of Babaylan philosophy, Daloy dance artists Buboy Raquitico, Zyda Baaya, and Jomari Cruz transcend conventional dance-making and performance through chanting and intuitive movement. Chant artist and singer Anjeline de Dios, percussionist and Kulintang-player Tusa Montes and award-winning lights designer Katsch Catoy envelop the piece in a powerful and uninhibited setting. </p>
+                                        <p class="px-4 text-justify">In expanding the inner space of loób, the three bodies reanimate the consciousness-shifting modality of the Babaylan—the pre-colonial shamanic priestesses of the Philippine islands. Unearthing transforms performance into community ritual, foregrounding the social being as a sacred being.</p>
+                                        <p class="px-4 text-justify">Unearthing premiered at the 2015 Karnabal Festival: Social and Performance Innovations. Wanggo Gallaga of the Manila Bulletin writes that the piece showcases Daloy's distinct orientation “away from the conventional idea of what contemporary dancing is expected to be. Unafraid to explore awkward shapes or deal with simplistic narratives, the Daloy Dance Company presses forward in their offering of a very different kind of contemporary dance show for the Filipino audience.” </p>
+                                        
+                                        
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Dancers:</span> Daloy Dance Company</p>
+                                        <p class="mb-0 pb-0 px-4"><span class="font-weight-bold">Director and Choreographer: </span>Ea Torrado</p>
+                                        <p class="pb-0 px-4 mb-3"><span class="font-weight-bold">Photography: </span>Patricia Rolda</p>
+
+                                        
+
+
+                                        <img src="./assets/images/performances/unearthing/1.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/2.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/3.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/4.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/5.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/6.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/7.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/8.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/9.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/10.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/11.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/12.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/13.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/14.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/15.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/16.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/17.jpg" class="img-fluid" alt="Unearthing">
+                                        <img src="./assets/images/performances/unearthing/18.jpg" class="img-fluid" alt="Unearthing">
+
+                                     
+                            
+
+                                        
+
+
+                                    <div class="modal-footer">
+                                        <img src="./assets/images/daloy-logo/DDC.jpg" class="img-fluid" alt="Daloy Dance Company">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="text-center font-weight-bold mb-5">MORE SHOWS TO BE UPLOADED SOON...</div> 
         </div>
     </section>
-        
 
+    <!-- NAVIGATION -->
     <footer>
         <div class="footer1 text-center text-dark" style="background-color: black;">
             <p style="margin-bottom: -1.8em; margin-top: -1em;"> <img src="./assets/images/daloy-logo/logo-only-daloy.png"  alt="Loading" style="height: 90px; width: 90px;"></p>
@@ -112,19 +271,19 @@
             <i class="fab fa-youtube fa-2x ml-2 mb-1"><a href="https://www.youtube.com/channel/UCqKWMNtLtICE3tjwuM7YpeA"></a></i>
         </div>
 
-        <div class="about-dev text-center" style="background-color: #717b84; color:white;"> &copy; 2020 Copyright: Daloy Dance Company by Patty Ro.</div>
+        <div class="about-dev text-center" style="background-color: #717b84; color:white;"> &copy; 2020 Copyright &vert; Daloy Dance Company by <a href="#"><span class="pattyro text-light">Patty Ro.</span></a></div>
     </footer>
-    
+
+
     <script src="./assets/js/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
-
     <script src="text/js">
 
-    $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-    })
-
+        $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+        })        
+        
     </script>
 </body>
 </html>

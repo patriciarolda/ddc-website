@@ -7,11 +7,11 @@
 
 
 // NAVIGATION BAR
-a.navbar-brand, a.nav-link,  {
+a.navbar-brand, a.nav-link  {
     color: white;
     &:hover {
         color: #B43022;
-        // transform: scale(1.1);
+        transform: scale(1.1);
     }
 }
 
@@ -29,11 +29,14 @@ span.navbar-toggler-icon {
     color: white;
 }
 
-/////////////////////////////////////////////////////////
+// FOOTER
 footer > .about-dev {
     background-color: #717b84;
 }
 
+.pattyro {
+    font-family: 'Parisienne', cursive;
+}
 
 
 //  CAROUSEL PHOTO IN HOME
@@ -53,8 +56,8 @@ a.carousel-button {
 }
 ////////////////////////////////////////////////////
 
-.card-img-top {
-    border-radius: 50%;
+.card {
+    min-height: 250px;
 }
 
 .title  {
@@ -90,12 +93,42 @@ a.carousel-button {
 
 
 
-// ARTIST
+// ARTIST-PAGE
 
-.artist-profile {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+#artist-description {
+    width: 15em;
+    height: 15em;
+    &:hover {
+        color: white;
+        transform: scale(1.1);
+        color: black;
+        box-shadow: 0 0 5px black;
+        text-shadow: 0 0 5px black;
+        box-shadow: 0 0 15px black;
+    }
+
+}
+
+.title-artist-description {
+    font-size: 2rem;
+}
+
+
+// GALLERY
+#daloy-gallery {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    &:hover {
+        color: white;
+        transform: scale(1.1);
+        color: black;
+        box-shadow: 0 0 5px black;
+        text-shadow: 0 0 5px black;
+        box-shadow: 0 0 15px black;
+    }
+    
+
 }
 
 // CONTACT
