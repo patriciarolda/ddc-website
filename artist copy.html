@@ -1,3 +1,5 @@
+<!-- ///TESTING FOR MODAL AND CAROUSEL/// -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,25 +11,27 @@
     <meta name="keywords" content="Daloy Dance Company, theater, dance-theater, artist, patricia rolda web design, ea torrado">
     <meta name="author" content="Daloy Dance Company. Artistic Director Ea Torrado. Web Designer Patricia Rolda">
     <script src="https://kit.fontawesome.com/f04ea524df.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/js/home-js.js">
-    <link rel="stylesheet"  href="./assets/css/home-style.css">
+    <link rel="stylesheet"  href="./assets/css/home-stye.css">
 
     <title>Daloy Dance Company</title>
 </head>
 
 <body>
-    <header>   <!-- NAVIGATION -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="./home.html">Daloy Dance Company</a>
+    <!-- NAVIGATION -->
+    <header>   
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./home.html"> <img src="./assets/images/daloy-logo/logo-only-daloy.png" alt="Loading" style="height: 90px; width: 90px;">  Daloy Dance Company.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
-   
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto ">
                         <li class="nav-item active">
                         <a class="nav-link" href="./home.html">HOME<span class="sr-only">(current)</span></a>
                         </li>
@@ -36,11 +40,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="./artist.html">ARTIST</a>
+                            <a class="nav-link" href="./artist.html">THE COMPANY</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="./performances.html">PERFORMANCCES</a>
+                            <a class="nav-link" href="./performances.html">PERFORMANCES</a>
                         </li>
 
                         <li class="nav-item">
@@ -48,52 +52,48 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Button trigger modal -->            
+                <img src="./assets/images/artist/buboy.jpg" alt=""   data-toggle="modal" data-target="#daloy-artist">
 
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-    Launch demo modal
-  </button>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
-    <section class="video">
-        <div class="container">
-            <iframe width="100%" height="500" src="https://www.youtube.com/embed/RFJAh6sm33c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </section>
+                <!-- Modal -->
+                <div class="modal fade" id="daloy-artist" tabindex="-1" role="dialog" aria-labelledby="artist-title" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="artist-title">BUBOY RAQUITICO</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
 
-    <section class="shows">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="./assets/images/performances/moonlight/cover.jpg" alt="">
+                                <img src="./assets/images/artist/buboy.jpg" class="img-fluid"  alt="" srcset="">
+                                <div class="modal-body">
+                                <p class="text-justify">Buboy is a company member of Daloy Dance Company, having performed and toured locally and internationally its full-length productions such as Ea Torrado’s ‘Canton at Himalaya’, ‘Unearthing’, and ‘Dysmorphilia’ to name a few. He is also the head of Daloy’s community outreach arm, ‘Ugnayan’. Buboy has received recognition from his works as a choreographer and performer – Grand Winner, 2018 WifiBody.Ph Choreographers’ Competition for his piece, ‘Transacting Comfort’; Korea Dance Association Award, 2015 Korea International Modern Dance Competition (Senior Male category), and Champion, 2017 PASUC National Culture and Arts Festival for his piece ‘Karera,’performed by PUP Maharlika Dance Artists. His movement practice has been greatly influenced by his teachers, Ea Torrado (contemporary dance and improvisation), Dona Tumacder-Esteban (somatics) and Arthur Bazin (contact improvisation). He is also an alumnus of UP Diliman’s Community Development program and the UP Street Dance Club.</p>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <img src="./assets/images/daloy-logo/DDC.jpg" class="img-fluid" alt="">
+                                </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-    </section>
-        
+    </div>
+ 
+
+
+
+
+
 
     <footer>
         <div class="footer1 text-center text-dark" style="background-color: black;">
@@ -121,10 +121,10 @@
 
     <script src="text/js">
 
-    $('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-    })
-
-    </script>
+        $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+        })
+        
+        </script>
 </body>
 </html>

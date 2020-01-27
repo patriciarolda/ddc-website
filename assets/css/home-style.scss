@@ -1,6 +1,57 @@
-
-
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+* {
+    font-family: 'Questrial', sans-serif;
+}
+
+
+// NAVIGATION BAR
+a.navbar-brand, a.nav-link,  {
+    color: white;
+    &:hover {
+        color: #B43022;
+        // transform: scale(1.1);
+    }
+}
+
+.navbar {
+    background-color: black;
+    font-size: .8em;
+    
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+span.navbar-toggler-icon {
+    color: white;
+}
+
+/////////////////////////////////////////////////////////
+footer > .about-dev {
+    background-color: #717b84;
+}
+
+
+
+//  CAROUSEL PHOTO IN HOME
+.carousel-photo {
+    height: 500px;
+    object-fit: cover;
+}
+
+p.carousel-title {
+    font-size: 1.5em;
+}
+
+
+a.carousel-button {
+    text-decoration: none;
+    color: white;
+}
+////////////////////////////////////////////////////
 
 .card-img-top {
     border-radius: 50%;
@@ -34,6 +85,31 @@
     border-radius: 50%;
 }
 
+//ABOUT
 
 
 
+
+// ARTIST
+
+.artist-profile {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+// CONTACT
+
+.googlemap{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.googlemap iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

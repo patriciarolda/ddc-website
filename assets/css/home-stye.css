@@ -9884,12 +9884,23 @@ a.navbar-brand, a.nav-link {
 }
 a.navbar-brand:hover, a.nav-link:hover {
   color: #B43022;
-  transform: scale(1.1);
 }
 
 .navbar {
   background-color: black;
   font-size: 0.8em;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+span.navbar-toggler-icon {
+  color: white;
+}
+
+footer > .about-dev {
+  background-color: #717b84;
 }
 
 .carousel-photo {
@@ -9936,4 +9947,25 @@ a.carousel-button {
   border-radius: 50%;
 }
 
-/*# sourceMappingURL=home-style.css.map */
+.artist-profile {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.googlemap {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+
+.googlemap iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*# sourceMappingURL=home-stye.css.map */
