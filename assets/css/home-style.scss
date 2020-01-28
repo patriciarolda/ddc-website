@@ -38,6 +38,11 @@ footer > .about-dev {
     font-family: 'Parisienne', cursive;
 }
 
+.fab {
+    &:hover {
+        transform: scale(1.1);
+    }
+}
 
 //  CAROUSEL PHOTO IN HOME
 .carousel-photo {
@@ -56,9 +61,6 @@ a.carousel-button {
 }
 ////////////////////////////////////////////////////
 
-.card {
-    min-height: 250px;
-}
 
 .title  {
     font-size: 2rem;

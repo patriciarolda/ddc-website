@@ -9908,6 +9908,10 @@ footer > .about-dev {
   font-family: "Parisienne", cursive;
 }
 
+.fab:hover {
+  transform: scale(1.1);
+}
+
 .carousel-photo {
   height: 500px;
   object-fit: cover;
@@ -9920,10 +9924,6 @@ p.carousel-title {
 a.carousel-button {
   text-decoration: none;
   color: white;
-}
-
-.card {
-  min-height: 250px;
 }
 
 .title {
