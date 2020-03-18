@@ -1,5 +1,5 @@
-@import "../../node_modules/bootstrap/scss/bootstrap";
 
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 * {
     font-family: 'Questrial', sans-serif;
@@ -97,19 +97,40 @@ a.carousel-button {
 
 // ARTIST-PAGE
 
-#artist-description {
-    width: 15em;
-    height: 15em;
-    &:hover {
-        color: white;
-        transform: scale(1.1);
-        color: black;
-        box-shadow: 0 0 5px black;
-        text-shadow: 0 0 5px black;
-        box-shadow: 0 0 15px black;
-    }
+// div.col + img {
+//     width: 15em;
+//     height: 15em;
 
-}
+//     &:hover {
+//         color: white;
+//         transform: scale(1.1);
+//         color: black;
+//         box-shadow: 0 0 5px black;
+//         text-shadow: 0 0 5px black;
+//         box-shadow: 0 0 15px black;
+//     }
+
+// }
+
+
+// div + img.artist-description {
+//     width: 15em;
+//     height: 15em;
+//     border-radius: 50%;
+//     display: block;
+//     margin-top: .5rem;
+//     margin-right: auto;
+//     margin-left: auto;
+//     &:hover {
+//         color: white;
+//         transform: scale(1.1);
+//         color: black;
+//         box-shadow: 0 0 5px black;
+//         text-shadow: 0 0 5px black;
+//         box-shadow: 0 0 15px black;
+//     }
+
+// }
 
 .title-artist-description {
     font-size: 2rem;
@@ -117,7 +138,7 @@ a.carousel-button {
 
 
 // GALLERY
-#daloy-gallery {
+img.daloy-gallery {
     width: 20rem;
     height: 20rem;
     object-fit: cover;
@@ -129,22 +150,11 @@ a.carousel-button {
         text-shadow: 0 0 5px black;
         box-shadow: 0 0 15px black;
     }
-    
-
 }
+
+
 
 // CONTACT
 
-.googlemap{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
-}
-.googlemap iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+
+
