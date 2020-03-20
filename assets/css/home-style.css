@@ -9892,6 +9892,26 @@ a.navbar-brand:hover, a.nav-link:hover {
   font-size: 0.8em;
 }
 
+.navbar-toggler {
+  border-color: white;
+}
+
+span.navbar-toggler-icon {
+  color: white;
+}
+
+footer > .about-dev {
+  background-color: #717b84;
+}
+
+.pattyro {
+  font-family: "Parisienne", cursive;
+}
+
+.fab:hover {
+  transform: scale(1.1);
+}
+
 .carousel-photo {
   height: 500px;
   object-fit: cover;
@@ -9904,10 +9924,6 @@ p.carousel-title {
 a.carousel-button {
   text-decoration: none;
   color: white;
-}
-
-.card-img-top {
-  border-radius: 50%;
 }
 
 .title {
@@ -9934,6 +9950,42 @@ a.carousel-button {
 
 .shows {
   border-radius: 50%;
+}
+
+img.ea {
+  width: 15em;
+  height: 15em;
+  border-radius: 50%;
+  display: block;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+img.ea:hover {
+  color: white;
+  transform: scale(1.1);
+  color: black;
+  box-shadow: 0 0 5px black;
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 15px black;
+}
+
+.title-artist-description {
+  font-size: 2rem;
+}
+
+.daloy-gallery1 {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+}
+.daloy-gallery1:hover {
+  color: white;
+  transform: scale(1.1);
+  color: black;
+  box-shadow: 0 0 5px black;
+  text-shadow: 0 0 5px black;
+  box-shadow: 0 0 15px black;
 }
 
 /*# sourceMappingURL=home-style.css.map */
